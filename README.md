@@ -12,4 +12,4 @@ Simese Network for similarity and ranking
 
 
 
-![ImagePair](./imagepair.png?raw=true "Title")
+![ImagePair](imagePair.png?raw=true "Title")
