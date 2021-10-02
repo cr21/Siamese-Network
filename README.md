@@ -39,3 +39,22 @@ Siamese Network for similarity and ranking
 
 ![binary_Siamese](output/plot_binary.png?raw=true "plot")
 
+
+    Training : 
+        python train.py
+
+    Inference :
+        python inference.py --inputDir Samples/
+
+
+## Inference Result
+
+![Result1](output/similarity/result/result0.png?raw=true "result1")
+
+
+![Result2](output/similarity/result/result4.png?raw=true "result4")
+
+
+
+![Result3](output/similarity/result/result9.png?raw=true "result9")
+
