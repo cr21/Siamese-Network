@@ -1,9 +1,8 @@
-from imutils import build_montages
 from tensorflow.keras.datasets import mnist
 from imutils import build_montages
 import numpy as np
 import cv2
-from imagePairGenerator import generatePairs
+from utils.imagePairGenerator import generatePairs
 
 print("[INFO] loading MNIST DATASET")
 (trainX, trainY), (testX, testY) = mnist.load_data()
@@ -38,4 +37,4 @@ montage = build_montages(images, (216, 120), (5, 5))[0]
 
 cv2.imshow("SIAMESE IMAGE PAIR", montage)
 cv2.waitKey(0)
-cv2.imwrite('imagePair.png', montage)
+cv2.imwrite('../output/imagePair.png', montage)

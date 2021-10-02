@@ -7,7 +7,7 @@ def generatePairs(images, labels):
     pairLabels = []
 
     numClasses = len(np.unique(labels))
-    print(numClasses)
+    #print(numClasses)
     idx = [np.where(labels == i)[0] for i in range(0, numClasses)]
 
     for idxA in range(len(images)):
@@ -32,5 +32,5 @@ def generatePairs(images, labels):
         pairImages.append([currentImage, negativeImage])
         pairLabels.append([0])
 
-    return pairImages, pairLabels
+    return (pairImages, pairLabels)
 
