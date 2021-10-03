@@ -2,7 +2,6 @@ import os
 
 BATCH_SIZE = 64
 
-
 # input shape (h,w,c)
 IMG_SHAPE = (28, 28, 1)
 
@@ -18,3 +17,7 @@ MODEL_PATH = os.path.sep.join([BASE_OUTPUT, "siamese_model"])
 # plot path of training accuracy, training loss, validation accuracy, validation loss
 
 PLOT_PATH = os.path.sep.join([BASE_OUTPUT, "plot_binary.png"])
+
+CONTRASTIVE_MODEL_PATH_ = os.path.sep.join([BASE_OUTPUT, "contrastive_siamese_model"])
+CONTRASTIVE_PLOT_PATH = os.path.sep.join([BASE_OUTPUT,
+                                          "contrastive_plot.png"])
