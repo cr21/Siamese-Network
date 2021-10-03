@@ -58,4 +58,3 @@ Siamese Network for similarity and ranking
 
 ![Result3](output/similarity/result/result9.png?raw=true "result9")
 
-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
